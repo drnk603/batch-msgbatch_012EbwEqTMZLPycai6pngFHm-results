@@ -1620,7 +1620,7 @@ blockquote {
 }
 
 .g-4 {
-  gap: var(--space-lg);
+
 }
 
 .justify-content-center {
@@ -1809,5 +1809,11 @@ tbody tr:hover {
 @media (min-width: 769px) {
   .u-hide-desktop {
     display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .g-4 {
+    gap: var(--space-lg);
   }
 }
