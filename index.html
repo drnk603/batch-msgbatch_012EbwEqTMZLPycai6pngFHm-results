@@ -1,49 +1,106 @@
 <!DOCTYPE html><html lang="de"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com",
+      "url": "https://domain.com",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "de"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Entdecken Sie unvergessliche Reiseerlebnisse mit ReiseWelt. Professionelle Reiseplanung, maßgeschneiderte Touren und erstklassiger Service für Ihre Traumreise in Deutschland.">
+  <meta name="description" content="domain Sie unvergessliche Reiseerlebnisse mit domain. Professionelle Reiseplanung, maßgeschneiderte Touren und erstklassiger Service für Ihre Traumreise in Deutschland.">
   <meta name="keywords" content="Reisen, Tourismus, Deutschland, Reiseplanung, Urlaub, Touren">
-  <meta property="og:title" content="ReiseWelt - Ihr Partner für unvergessliche Reiseerlebnisse">
-  <meta property="og:description" content="Entdecken Sie unvergessliche Reiseerlebnisse mit ReiseWelt. Professionelle Reiseplanung, maßgeschneiderte Touren und erstklassiger Service für Ihre Traumreise in Deutschland.">
+  <meta property="og:title" content="domain - Ihr Partner für unvergessliche Reiseerlebnisse">
+  <meta property="og:description" content="domain Sie unvergessliche Reiseerlebnisse mit domain. Professionelle Reiseplanung, maßgeschneiderte Touren und erstklassiger Service für Ihre Traumreise in Deutschland.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&amp;h=630&amp;fit=crop">
+  <meta property="og:image" content="https://images.unsplash.com/photo-+49 (0)30 9719623cb44e25828?w=1200&amp;h=630&amp;fit=crop">
   <link rel="canonical" href="https://domain.com/">
-  <title>ReiseWelt - Ihr Partner für unvergessliche Reiseerlebnisse</title>
+  <title>domain - Ihr Partner für unvergessliche Reiseerlebnisse</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
-    <div class="container">
-     <a class="navbar-brand c-logo" href="/"> <span class="c-logo__text">ReiseWelt</span> </a>
-     <button class="navbar-toggler c-nav__toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto c-nav__list">
-       <li class="nav-item c-nav__item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="about.html">Über uns</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="services.html">Leistungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_and_conditions.html">AGB</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_of_services.html">Nutzungsbedingungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="cookie_policy.html">Cookie-Richtlinie</a></li>
-      </ul>
-      <a href="#contact-form" class="btn c-button ms-lg-3">Kontakt</a>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-inner">
+    <div class="dr-header-main">
+      <div class="dr-header-brand">
+        <div class="dr-logo" aria-label="domain">
+          <span class="dr-logo-mark" aria-hidden="true"></span>
+          <span class="dr-logo-text">domain</span>
+        </div>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-panel" aria-hidden="true">
+      <nav class="dr-nav-panel-inner" aria-label="Main navigation mobile">
+        <ul class="dr-nav-panel-list">
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
   <main>
    <section class="l-section hero-section" id="hero">
     <div class="container">
      <div class="row align-items-center py-4 py-md-5">
       <div class="col-lg-6" data-aos="fade-right">
-       <h1 class="display-3 fw-bold mb-4">Entdecken Sie die Welt mit ReiseWelt</h1>
+       <h1 class="display-3 fw-bold mb-4">domain Sie die Welt mit domain</h1>
        <p class="lead mb-4">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus. Maßgeschneiderte Touren, professionelle Planung und erstklassiger Service für jeden Reisenden.</p>
        <div class="d-flex flex-column flex-sm-row gap-3">
-        <a href="#services" class="btn c-button btn-lg">Unsere Leistungen</a> <a href="#contact-form" class="btn c-button c-button--secondary btn-lg">Jetzt anfragen</a>
+        <a href="#services" class="btn c-button btn-lg">domain Leistungen</a> <a href="#contact-form" class="btn c-button c-button--secondary btn-lg">Jetzt anfragen</a>
        </div>
       </div>
       <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
@@ -59,7 +116,7 @@
      <div class="row text-center mb-5" data-aos="fade-up">
       <div class="col-12">
        <h2 class="display-5 fw-bold mb-3">Schnellzugriff</h2>
-       <p class="lead text-muted">Entdecken Sie unsere beliebtesten Reisekategorien</p>
+       <p class="lead text-muted">domain Sie unsere beliebtesten Reisekategorien</p>
       </div>
      </div>
      <div class="row g-4">
@@ -68,7 +125,7 @@
         <div class="card-body d-flex flex-column p-4">
          <div class="ratio ratio-1x1 mb-3 mx-auto" style="max-width: 80px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-           <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"></path> <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"></path>
+           <path d="M11.47 3.84a.030-487-6283l8.69 8.69a.+49 30 2207400l-8.689-8.69a+49 (0)30 9719623l-8.69 8.69a.030-487-6283l8.69-8.69z"></path> <path d="M12 5.432l+49 30 2207400c.+49 (0)30 9719623v6.198c030-487-6283H15a.+49 30 2207400v-4.5a.+49 (0)30 9719623h-3a.030-487-6283V21a.+49 30 2207400H5.625a+49 (0)30 9719623v-6.198a030-487-6283L12 5.43z"></path>
           </svg>
          </div>
          <h3 class="h5 mb-3">Städtereisen</h3>
@@ -82,11 +139,11 @@
         <div class="card-body d-flex flex-column p-4">
          <div class="ratio ratio-1x1 mb-3 mx-auto" style="max-width: 80px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-           <path fill-rule="evenodd" d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z" clip-rule="evenodd"></path>
+           <path fill-rule="evenodd" d="M8.161 2.58a+49 30 2207400l+49 (0)30 9719623c.030-487-6283l+49 30 2207400A+49 (0)30 9719623v12.485c030-487-6283l-+49 30 2207400a+49 (0)30 9719623l-030-487-6283a.+49 30 2207400l-+49 (0)30 9719623A030-487-6283V6.695c+49 30 2207400l+49 (0)30 9719623zM9 6a.030-487-6283V15a.+49 30 2207400V6.75A.+49 (0)30 9719623zm6.75 3a.030-487-6283v8.25a.+49 30 2207400V9z" clip-rule="evenodd"></path>
           </svg>
          </div>
          <h3 class="h5 mb-3">Naturreisen</h3>
-         <p class="text-muted mb-4">Entdecken Sie atemberaubende Landschaften und unberührte Natur</p>
+         <p class="text-muted mb-4">domain Sie atemberaubende Landschaften und unberührte Natur</p>
          <a href="services.html#nature-tours" class="btn c-button mt-auto">Mehr erfahren</a>
         </div>
        </div>
@@ -96,7 +153,7 @@
         <div class="card-body d-flex flex-column p-4">
          <div class="ratio ratio-1x1 mb-3 mx-auto" style="max-width: 80px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-           <path d="M11.584 2.376a.75.75 0 01.832 0l9 6a.75.75 0 11-.832 1.248L12 3.901 3.416 9.624a.75.75 0 01-.832-1.248l9-6z"></path> <path fill-rule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 010 1.5H3a.75.75 0 010-1.5h.75v-9.918a.75.75 0 01.634-.74A49.109 49.109 0 0112 9c2.59 0 5.134.202 7.616.592a.75.75 0 01.634.74zm-7.5 2.418a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75zm3-.75a.75.75 0 01.75.75v6.75a.75.75 0 01-1.5 0v-6.75a.75.75 0 01.75-.75zM9 12.75a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75z" clip-rule="evenodd"></path>
+           <path d="M+49 (0)30 9719623a.030-487-6283l9 6a.+49 30 2207400L+49 (0)30 9719623a.030-487-6283l9-6z"></path> <path fill-rule="evenodd" d="M+49 30 2207400v9.918H21a.+49 (0)30 9719623H3a.030-487-6283h.75v-9.918a.+49 30 2207400A+49 (0)30 9719623c030-487-6283a.+49 30 2207400zm-7.5 2.418a.+49 (0)30 9719623v6.75a.030-487-6283v-6.75zm3-.75a.+49 30 2207400v6.75a.+49 (0)30 9719623v-6.75a.030-487-6283zM9 12.75a.+49 30 2207400v6.75a.+49 (0)30 9719623v-6.75z" clip-rule="evenodd"></path>
           </svg>
          </div>
          <h3 class="h5 mb-3">Kulturreisen</h3>
@@ -110,7 +167,7 @@
         <div class="card-body d-flex flex-column p-4">
          <div class="ratio ratio-1x1 mb-3 mx-auto" style="max-width: 80px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-           <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z"></path> <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd"></path>
+           <path d="M15.75 8.25a.030-487-6283c+49 30 2207400a.+49 (0)30 9719623A030-487-6283a.+49 30 2207400z"></path> <path fill-rule="evenodd" d="M12 2.25c-+49 (0)30 9719623s030-487-6283S+49 30 2207400zM4.575 15.6a+49 (0)30 9719623l-.073-.437c-.030-487-6283l.99-.282c.+49 30 2207400l.036-.073a+49 (0)30 9719623L16.5 15h.628a030-487-6283c.+49 30 2207400l1.068.89c.+49 (0)30 9719623l-.51.766a030-487-6283l-.143.048a+49 30 2207400c.+49 (0)30 9719623L9 13.125l.423 1.059a.030-487-6283l-.679-.906a+49 30 2207400L4.575 15.6z" clip-rule="evenodd"></path>
           </svg>
          </div>
          <h3 class="h5 mb-3">Abenteuerreisen</h3>
@@ -126,7 +183,7 @@
     <div class="container">
      <div class="row text-center mb-5" data-aos="fade-up">
       <div class="col-12">
-       <h2 class="display-5 fw-bold mb-3">Unsere Leistungen</h2>
+       <h2 class="display-5 fw-bold mb-3">domain Leistungen</h2>
        <p class="lead text-muted">Professionelle Reiseplanung und erstklassiger Service für unvergessliche Erlebnisse</p>
       </div>
      </div>
@@ -138,7 +195,7 @@
         </div>
         <div class="card-body d-flex flex-column p-4">
          <h3 class="h4 mb-3">Individuelle Reiseplanung</h3>
-         <p class="text-muted mb-4">Unsere Experten erstellen maßgeschneiderte Reisepläne, die perfekt auf Ihre Wünsche und Bedürfnisse abgestimmt sind. Von der ersten Idee bis zur Buchung begleiten wir Sie persönlich.</p>
+         <p class="text-muted mb-4">domain Experten erstellen maßgeschneiderte Reisepläne, die perfekt auf Ihre Wünsche und Bedürfnisse abgestimmt sind. Von der ersten Idee bis zur Buchung begleiten wir Sie persönlich.</p>
          <a href="services.html" class="btn c-button mt-auto">Mehr erfahren</a>
         </div>
        </div>
@@ -150,7 +207,7 @@
         </div>
         <div class="card-body d-flex flex-column p-4">
          <h3 class="h4 mb-3">Geführte Gruppenreisen</h3>
-         <p class="text-muted mb-4">Erleben Sie Deutschland in kleinen Gruppen mit erfahrenen Reiseleitern. Entdecken Sie versteckte Juwelen und lernen Sie Gleichgesinnte kennen.</p>
+         <p class="text-muted mb-4">Erleben Sie Deutschland in kleinen Gruppen mit erfahrenen Reiseleitern. domain Sie versteckte Juwelen und lernen Sie Gleichgesinnte kennen.</p>
          <a href="services.html" class="btn c-button mt-auto">Mehr erfahren</a>
         </div>
        </div>
@@ -185,7 +242,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm4.5 7.5a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25a.75.75 0 01.75-.75zm3.75-1.5a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0V12zm2.25-3a.75.75 0 01.75.75v6.75a.75.75 0 01-1.5 0V9.75A.75.75 0 0113.5 9zm3.75-1.5a.75.75 0 00-1.5 0v9a.75.75 0 001.5 0v-9z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm4.5 7.5a.+49 (0)30 9719623v2.25a.030-487-6283v-2.25a.+49 30 2207400zm3.75-1.5a.+49 (0)30 9719623v4.5a.030-487-6283V12zm2.25-3a.+49 30 2207400v6.75a.+49 (0)30 9719623V9.75A.030-487-6283zm3.75-1.5a.+49 30 2207400v9a.+49 (0)30 9719623v-9z" clip-rule="evenodd"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Wellness &amp; Entspannung</h3>
@@ -200,7 +257,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 00-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 01-.189-.866c0-.298.059-.605.189-.866zm2.023 6.828a.75.75 0 10-1.06-1.06 3.75 3.75 0 01-5.304 0 .75.75 0 00-1.06 1.06 5.25 5.25 0 007.424 0z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd" d="M12 2.25c-030-487-6283s+49 30 2207400S+49 (0)30 9719623zm-2.625 6c-.030-487-6283a+49 30 2207400c+49 (0)30 9719623zm4.314.634c.030-487-6283a+49 30 2207400c+49 (0)30 9719623zm030-487-6283a.+49 30 2207400z" clip-rule="evenodd"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Familienreisen</h3>
@@ -215,7 +272,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"></path>
+            <path d="M+49 (0)30 9719623l-.030-487-6283a+49 30 2207400C+49 (0)30 9719623A030-487-6283c+49 30 2207400a+49 (0)30 9719623l-.030-487-6283a.+49 30 2207400l-.003-.001z"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Romantische Reisen</h3>
@@ -230,7 +287,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0112 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 017.5 5.455V5.25zm7.5 0v.09a49.488 49.488 0 00-6 0v-.09a1.5 1.5 0 011.5-1.5h3a1.5 1.5 0 011.5 1.5zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"></path> <path d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"></path>
+            <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 013-3h3a3 3 0 013 3v.205c.+49 (0)30 9719623v3.033c030-487-6283A+49 30 2207400c-+49 (0)30 9719623V8.706c030-487-6283A+49 30 2207400V5.25zm7.5 0v.09a+49 (0)30 9719623v-.09a030-487-6283h3a+49 30 2207400zm-3 8.25a.+49 (0)30 9719623z" clip-rule="evenodd"></path> <path d="M3 18.4v-2.796a030-487-6283A+49 30 2207400c+49 (0)30 9719623V18.4c030-487-6283a+49 30 2207400C+49 (0)30 9719623z"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Geschäftsreisen</h3>
@@ -245,7 +302,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path fill-rule="evenodd" d="M12.963 2.286a.75.75 0 00-1.071-.136 9.742 9.742 0 00-3.539 6.177A7.547 7.547 0 016.648 6.61a.75.75 0 00-1.152-.082A9 9 0 1015.68 4.534a7.46 7.46 0 01-2.717-2.248zM15.75 14.25a3.75 3.75 0 11-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 011.925-3.545 3.75 3.75 0 013.255 3.717z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd" d="M030-487-6283a.+49 30 2207400A+49 (0)30 9719623a.030-487-6283A+49 30 2207400a+49 (0)30 9719623zM030-487-6283a+49 30 2207400c.+49 (0)30 9719623a030-487-6283z" clip-rule="evenodd"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Aktivurlaub</h3>
@@ -260,7 +317,7 @@
          <div class="d-flex align-items-center mb-3">
           <div class="ratio ratio-1x1 me-3" style="max-width: 60px;">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary">
-            <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd"></path>
+            <path fill-rule="evenodd" d="M+49 30 2207400a.+49 (0)30 9719623L030-487-6283h7.268a.+49 30 2207400l-10.5 11.25a.+49 (0)30 9719623l030-487-6283H3.75a.+49 30 2207400l10.5-11.25a.+49 (0)30 9719623z" clip-rule="evenodd"></path>
            </svg>
           </div>
           <h3 class="h5 mb-0">Last Minute</h3>
@@ -276,7 +333,7 @@
     <div class="container">
      <div class="row text-center mb-5" data-aos="fade-up">
       <div class="col-12">
-       <h2 class="display-5 fw-bold mb-3">Karriere bei ReiseWelt</h2>
+       <h2 class="display-5 fw-bold mb-3">Karriere bei domain</h2>
        <p class="lead text-muted">Werden Sie Teil unseres Teams und gestalten Sie unvergessliche Reiseerlebnisse</p>
       </div>
      </div>
@@ -373,7 +430,7 @@
            </div>
            <div class="col-12">
             <div class="form-check c-form__checkbox">
-             <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required=""> <label class="form-check-label" for="privacy"> Ich habe die <a href="privacy.html" class="text-primary">Datenschutzerklärung</a> gelesen und akzeptiert * </label>
+             <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required=""> <label class="form-check-label" for="privacy"> Ich habe die <a href="privacy.html" class="text-primary">domain</a> gelesen und akzeptiert * </label>
              <div class="invalid-feedback c-form__error">Sie müssen den Datenschutzbestimmungen zustimmen.</div>
             </div>
            </div>
@@ -389,47 +446,56 @@
     </div>
    </section>
   </main>
-  <footer class="l-footer bg-dark text-white py-5">
-   <div class="container">
-    <div class="row g-4">
-     <div class="col-lg-4 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">ReiseWelt</h3>
-      <p class="text-white-50">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus.</p>
-      <div class="mt-4">
-       <p class="mb-2"><strong>Kontakt:</strong></p>
-       <p class="text-white-50 mb-1">Friedrichstraße 123</p>
-       <p class="text-white-50 mb-1">10117 Berlin, Deutschland</p>
-       <p class="text-white-50 mb-1">Tel: +49 30 12345678</p>
-       <p class="text-white-50 mb-1">E-Mail: info@domain.com</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-inner">
+    <div class="dr-footer-top">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-logo" aria-label="domain">
+          <span class="dr-footer-logo-mark" aria-hidden="true"></span>
+          <span class="dr-footer-logo-text">domain</span>
+        </div>
+        <p class="dr-footer-disclaimer">
+          The information provided on domain.com is for general informational purposes only and does not constitute legal, financial, or professional advice. domain makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of any content. Any reliance you place on such information is strictly at your own risk. domain shall not be liable for any loss or damage arising from the use of domain.com or any linked resources. You should always consult qualified professionals for advice tailored to your specific situation.
+        </p>
       </div>
-     </div>
-     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">Schnellzugriff</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-       <li class="c-nav__item mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
-       <li class="c-nav__item mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
-       <li class="c-nav__item mb-2"><a href="#contact-form" class="text-white-50 text-decoration-none">Kontakt</a></li>
-      </ul>
-     </div>
-     <div class="col-lg-4 col-md-6">
-      <h3 class="h5 mb-3">Rechtliches</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutzerklärung</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_and_conditions.html" class="text-white-50 text-decoration-none">Allgemeine Geschäftsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_of_services.html" class="text-white-50 text-decoration-none">Nutzungsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="cookie_policy.html" class="text-white-50 text-decoration-none">Cookie-Richtlinie</a></li>
-      </ul>
-     </div>
+      <div class="dr-footer-nav-blocks">
+        <nav class="dr-footer-nav" aria-label="Main navigation">
+          <h2 class="dr-footer-heading">Navigate</h2>
+          <ul class="dr-footer-nav-list">
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="dr-footer-legal" aria-label="Legal">
+          <h2 class="dr-footer-heading">Legal</h2>
+          <ul class="dr-footer-legal-list">
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <hr class="my-4 bg-white-50">
-    <div class="row">
-     <div class="col-12 text-center">
-      <p class="text-white-50 mb-0">© 2025 ReiseWelt. Alle Rechte vorbehalten.</p>
-     </div>
+    <div class="dr-footer-bottom">
+      <p class="dr-footer-copy">
+        © <span class="dr-footer-copy-brand">domain</span>. All rights reserved.
+      </p>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
+
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

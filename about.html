@@ -1,10 +1,39 @@
 <!DOCTYPE html><html lang="de"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/about.html",
+      "url": "https://domain.com/about.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "de"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Über uns - Entdecken Sie unsere Geschichte | TravelVista Tours</title>
+  <title>domain - domain Sie unsere Geschichte | TravelVista Tours</title>
   <meta name="description" content="Erfahren Sie mehr über TravelVista Tours, unsere Mission und unser engagiertes Team. Seit über 15 Jahren bieten wir unvergessliche Reiseerlebnisse in Deutschland.">
   <link rel="canonical" href="https://domain.com/about.html">
-  <meta property="og:title" content="Über uns - Entdecken Sie unsere Geschichte | TravelVista Tours">
+  <meta property="og:title" content="Über uns - domain Sie unsere Geschichte | TravelVista Tours">
   <meta property="og:description" content="Erfahren Sie mehr über TravelVista Tours, unsere Mission und unser engagiertes Team. Seit über 15 Jahren bieten wir unvergessliche Reiseerlebnisse in Deutschland.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/about.html">
@@ -12,30 +41,58 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
-    <div class="container">
-     <a class="navbar-brand c-logo" href="/"> <span class="c-logo__text">ReiseWelt</span> </a>
-     <button class="navbar-toggler c-nav__toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto c-nav__list">
-       <li class="nav-item c-nav__item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="about.html">Über uns</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="services.html">Leistungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_and_conditions.html">AGB</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_of_services.html">Nutzungsbedingungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="cookie_policy.html">Cookie-Richtlinie</a></li>
-      </ul>
-      <a href="#contact-form" class="btn c-button ms-lg-3">Kontakt</a>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-inner">
+    <div class="dr-header-main">
+      <div class="dr-header-brand">
+        <div class="dr-logo" aria-label="domain">
+          <span class="dr-logo-mark" aria-hidden="true"></span>
+          <span class="dr-logo-text">domain</span>
+        </div>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-panel" aria-hidden="true">
+      <nav class="dr-nav-panel-inner" aria-label="Main navigation mobile">
+        <ul class="dr-nav-panel-list">
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
   <main>
-   <section class="l-section py-4 py-md-5" style="background: linear-gradient(135deg, rgba(45, 45, 45, 0.95) 0%, rgba(30, 30, 30, 0.9) 100%), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&amp;h=900&amp;fit=crop') center/cover no-repeat;">
+   <section class="l-section py-4 py-md-5" style="background: linear-gradient(135deg, rgba(45, 45, 45, 0.95) 0%, rgba(30, 30, 30, 0.9) 100%), url('https://images.unsplash.com/photo-030-487-6283cb44e25828?w=1600&amp;h=900&amp;fit=crop') center/cover no-repeat;">
     <div class="container">
      <nav aria-label="breadcrumb" data-aos="fade-down">
       <ol class="breadcrumb">
@@ -60,10 +117,10 @@
        </div>
       </div>
       <div class="col-lg-6" data-aos="fade-left">
-       <h2 class="display-5 fw-bold mb-4">Unsere Mission</h2>
+       <h2 class="display-5 fw-bold mb-4">domain Mission</h2>
        <p class="fs-5 mb-3">Bei TravelVista Tours glauben wir, dass Reisen mehr ist als nur das Erreichen eines Ziels – es geht um die Erlebnisse, die Menschen und die Erinnerungen, die unterwegs entstehen.</p>
        <p class="mb-3">Seit unserer Gründung im Jahr 2010 haben wir uns der Aufgabe verschrieben, maßgeschneiderte Reiseerlebnisse zu schaffen, die die einzigartigen Bedürfnisse und Träume jedes einzelnen Reisenden erfüllen. Unser engagiertes Team aus Reiseexperten arbeitet unermüdlich daran, jede Reise zu einem unvergesslichen Abenteuer zu machen.</p>
-       <p class="mb-4">Mit Sitz in Berlin bedienen wir Kunden in ganz Deutschland und bieten umfassende Reisedienstleistungen an, von individuellen Stadttouren bis hin zu kompletten Urlaubspaketen. Unsere Leidenschaft für Reisen und unser Engagement für exzellenten Service machen uns zu Ihrem vertrauenswürdigen Partner für alle Ihre Reisebedürfnisse.</p>
+       <p class="mb-4">Mit Sitz in Berlin bedienen wir Kunden in ganz Deutschland und bieten umfassende domain an, von individuellen Stadttouren bis hin zu kompletten Urlaubspaketen. domain Leidenschaft für Reisen und unser Engagement für exzellenten Service machen uns zu Ihrem vertrauenswürdigen Partner für alle Ihre Reisebedürfnisse.</p>
       </div>
      </div>
     </div>
@@ -101,7 +158,7 @@
     <div class="container">
      <div class="row mb-5">
       <div class="col-12 text-center" data-aos="fade-up">
-       <h2 class="display-5 fw-bold mb-3">Unsere Entwicklung</h2>
+       <h2 class="display-5 fw-bold mb-3">domain Entwicklung</h2>
        <p class="lead fs-5">Von bescheidenen Anfängen zum führenden Reiseveranstalter</p>
       </div>
      </div>
@@ -243,7 +300,7 @@
     <div class="container">
      <div class="row mb-5">
       <div class="col-12 text-center" data-aos="fade-up">
-       <h2 class="display-5 fw-bold mb-3">Unsere Werte</h2>
+       <h2 class="display-5 fw-bold mb-3">domain Werte</h2>
        <p class="lead fs-5">Die Prinzipien, die unsere Arbeit leiten</p>
       </div>
      </div>
@@ -252,7 +309,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          <path d="M20.84 4.61a+49 30 2207400L12 5.67l-1.06-1.06a+49 (0)30 9719623l1.06 1.06L12 21.23l030-487-6283a+49 30 2207400z"></path>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Leidenschaft</h3>
@@ -263,7 +320,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c+49 (0)30 9719623z"></path>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Vertrauen</h3>
@@ -274,7 +331,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <circle cx="12" cy="12" r="10"></circle> <polyline points="12 6 12 12 16 14"></polyline>
+          <circle cx="12" cy="12" r="10"></circle> <polyline points="030-487-6283"></polyline>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Exzellenz</h3>
@@ -285,7 +342,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path> <circle cx="9" cy="7" r="4"></circle> <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path> <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path> <circle cx="9" cy="7" r="4"></circle> <path d="M23 21v-2a+49 30 2207400"></path> <path d="M16 3.13a+49 (0)30 9719623"></path>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Zusammenarbeit</h3>
@@ -296,7 +353,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path> <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline> <line x1="12" y1="22.08" x2="12" y2="12"></line>
+          <path d="M21 16V8a030-487-6283l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a+49 30 2207400l7 4a2 2 0 0 0 2 0l7-4A+49 (0)30 9719623z"></path> <polyline points="030-487-6283"></polyline> <line x1="12" y1="22.08" x2="12" y2="12"></line>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Innovation</h3>
@@ -307,7 +364,7 @@
        <div class="text-center p-4" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow-sm); height: 100%;">
         <div class="ratio ratio-1x1 mx-auto mb-4" style="max-width: 80px;">
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);">
-          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+          <path d="M12 2.69l5.66 5.66a+49 30 2207400z"></path>
          </svg>
         </div>
         <h3 class="h5 fw-bold mb-3">Nachhaltigkeit</h3>
@@ -317,7 +374,7 @@
      </div>
     </div>
    </section>
-   <section class="l-section py-4 py-md-5" style="background: linear-gradient(135deg, rgba(45, 45, 45, 0.95) 0%, rgba(30, 30, 30, 0.9) 100%), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&amp;h=800&amp;fit=crop') center/cover no-repeat;">
+   <section class="l-section py-4 py-md-5" style="background: linear-gradient(135deg, rgba(45, 45, 45, 0.95) 0%, rgba(30, 30, 30, 0.9) 100%), url('https://images.unsplash.com/photo-+49 (0)30 9719623f0129c71c?w=1600&amp;h=800&amp;fit=crop') center/cover no-repeat;">
     <div class="container">
      <div class="row">
       <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
@@ -327,7 +384,7 @@
         <div class="col-md-4">
          <div class="ratio ratio-1x1 mx-auto mb-3" style="max-width: 60px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path> <circle cx="12" cy="10" r="3"></circle>
+           <path d="M21 10c030-487-6283s-9-6-9-13a+49 30 2207400z"></path> <circle cx="12" cy="10" r="3"></circle>
           </svg>
          </div>
          <p class="fw-bold mb-2">Adresse</p>
@@ -338,11 +395,11 @@
         <div class="col-md-4">
          <div class="ratio ratio-1x1 mx-auto mb-3" style="max-width: 60px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+           <path d="M22 16.92v3a+49 (0)30 9719623A030-487-6283h3a+49 30 2207400L8.09 9.91a+49 (0)30 9719623l1.27-1.27a030-487-6283A+49 30 2207400z"></path>
           </svg>
          </div>
          <p class="fw-bold mb-2">Telefon</p>
-         <p class="mb-0"><a href="tel:+493085642310" class="text-white text-decoration-none">+49 30 856 42 310</a></p>
+         <p class="mb-0"><a href="tel:+49 (0)30 9719623" class="text-white text-decoration-none">030-487-6283</a></p>
         </div>
         <div class="col-md-4">
          <div class="ratio ratio-1x1 mx-auto mb-3" style="max-width: 60px;">
@@ -351,56 +408,65 @@
           </svg>
          </div>
          <p class="fw-bold mb-2">E-Mail</p>
-         <p class="mb-0"><a href="mailto:info@domain.com" class="text-white text-decoration-none">info@domain.com</a></p>
+         <p class="mb-0"><a href="mailto:office@domain.com" class="text-white text-decoration-none">contact@domain.com</a></p>
         </div>
        </div>
-       <a href="services.html" class="btn btn-lg btn-light fw-bold px-5 py-3">Unsere Dienstleistungen</a>
+       <a href="services.html" class="btn btn-lg btn-light fw-bold px-5 py-3">domain Dienstleistungen</a>
       </div>
      </div>
     </div>
    </section>
   </main>
-  <footer class="l-footer bg-dark text-white py-5">
-   <div class="container">
-    <div class="row g-4">
-     <div class="col-lg-4 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">ReiseWelt</h3>
-      <p class="text-white-50">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus.</p>
-      <div class="mt-4">
-       <p class="mb-2"><strong>Kontakt:</strong></p>
-       <p class="text-white-50 mb-1">Friedrichstraße 123</p>
-       <p class="text-white-50 mb-1">10117 Berlin, Deutschland</p>
-       <p class="text-white-50 mb-1">Tel: +49 30 12345678</p>
-       <p class="text-white-50 mb-1">E-Mail: info@domain.com</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-inner">
+    <div class="dr-footer-top">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-logo" aria-label="domain">
+          <span class="dr-footer-logo-mark" aria-hidden="true"></span>
+          <span class="dr-footer-logo-text">domain</span>
+        </div>
+        <p class="dr-footer-disclaimer">
+          The information provided on domain.com is for general informational purposes only and does not constitute legal, financial, or professional advice. domain makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of any content. Any reliance you place on such information is strictly at your own risk. domain shall not be liable for any loss or damage arising from the use of domain.com or any linked resources. You should always consult qualified professionals for advice tailored to your specific situation.
+        </p>
       </div>
-     </div>
-     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">Schnellzugriff</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-       <li class="c-nav__item mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
-       <li class="c-nav__item mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
-       <li class="c-nav__item mb-2"><a href="#contact-form" class="text-white-50 text-decoration-none">Kontakt</a></li>
-      </ul>
-     </div>
-     <div class="col-lg-4 col-md-6">
-      <h3 class="h5 mb-3">Rechtliches</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutzerklärung</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_and_conditions.html" class="text-white-50 text-decoration-none">Allgemeine Geschäftsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_of_services.html" class="text-white-50 text-decoration-none">Nutzungsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="cookie_policy.html" class="text-white-50 text-decoration-none">Cookie-Richtlinie</a></li>
-      </ul>
-     </div>
+      <div class="dr-footer-nav-blocks">
+        <nav class="dr-footer-nav" aria-label="Main navigation">
+          <h2 class="dr-footer-heading">Navigate</h2>
+          <ul class="dr-footer-nav-list">
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="dr-footer-legal" aria-label="Legal">
+          <h2 class="dr-footer-heading">Legal</h2>
+          <ul class="dr-footer-legal-list">
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <hr class="my-4 bg-white-50">
-    <div class="row">
-     <div class="col-12 text-center">
-      <p class="text-white-50 mb-0">© 2025 ReiseWelt. Alle Rechte vorbehalten.</p>
-     </div>
+    <div class="dr-footer-bottom">
+      <p class="dr-footer-copy">
+        © <span class="dr-footer-copy-brand">domain</span>. All rights reserved.
+      </p>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
+
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

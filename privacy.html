@@ -1,38 +1,95 @@
 <!DOCTYPE html><html lang="de"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/privacy.html",
+      "url": "https://domain.com/privacy.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "de"
+    }
+  ]
+}
+</script>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
-    <div class="container">
-     <a class="navbar-brand c-logo" href="/"> <span class="c-logo__text">ReiseWelt</span> </a>
-     <button class="navbar-toggler c-nav__toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto c-nav__list">
-       <li class="nav-item c-nav__item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="about.html">Über uns</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="services.html">Leistungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_and_conditions.html">AGB</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_of_services.html">Nutzungsbedingungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="cookie_policy.html">Cookie-Richtlinie</a></li>
-      </ul>
-      <a href="#contact-form" class="btn c-button ms-lg-3">Kontakt</a>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-inner">
+    <div class="dr-header-main">
+      <div class="dr-header-brand">
+        <div class="dr-logo" aria-label="domain">
+          <span class="dr-logo-mark" aria-hidden="true"></span>
+          <span class="dr-logo-text">domain</span>
+        </div>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-panel" aria-hidden="true">
+      <nav class="dr-nav-panel-inner" aria-label="Main navigation mobile">
+        <ul class="dr-nav-panel-list">
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width," initial-scale="1">
-  <meta name="description" content="Datenschutzerklärung" von="" wanderreisen="" deutschland="" -="" erfahren="" sie,="" wie="" wir="" ihre="" personenbezogenen="" daten="" sammeln,="" verwenden="" und="" schützen.\_="">
-  <meta property="og:title" content="Datenschutzerklärung" -="" wanderreisen="" deutschland\_="">
-  <meta property="og:description" content="Datenschutzerklärung" von="" wanderreisen="" deutschland="" -="" erfahren="" sie,="" wie="" wir="" ihre="" personenbezogenen="" daten="" sammeln,="" verwenden="" und="" schützen.\_="">
+  <meta name="description" content="domain" von="" wanderreisen="" deutschland="" -="" erfahren="" sie,="" wie="" wir="" ihre="" personenbezogenen="" daten="" sammeln,="" verwenden="" und="" schützen.\_="">
+  <meta property="og:title" content="domain" -="" wanderreisen="" deutschland\_="">
+  <meta property="og:description" content="domain" von="" wanderreisen="" deutschland="" -="" erfahren="" sie,="" wie="" wir="" ihre="" personenbezogenen="" daten="" sammeln,="" verwenden="" und="" schützen.\_="">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/privacy.html">
   <link rel="canonical" href="https://domain.com/privacy.html">
-  <title>Datenschutzerklärung - WanderReisen Deutschland</title>
+  <title>domain - WanderReisen Deutschland</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <main>
@@ -41,29 +98,21 @@
      <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
        <li class="breadcrumb-item"><a href="index.html">Startseite</a></li>
-       <li class="breadcrumb-item" active\_="" aria-current="page">Datenschutzerklärung</li>
+       <li class="breadcrumb-item" active\_="" aria-current="page">domain</li>
       </ol>
      </nav>
      <div class="row" justify-content-center\_="">
       <div class="col-lg-10">
-       <h1 class="display-4" mb-4\_="">Datenschutzerklärung</h1>
+       <h1 class="display-4" mb-4\_="">domain</h1>
        <p class="text-muted" mb-5\_=""><strong>Letzte Aktualisierung:</strong> 15. Januar 2025</p>
        <div class="privacy-content">
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">1. Einleitung und Verantwortliche Stelle</h2>
-         <p>WanderReisen Deutschland („wir", „uns", „unser") nimmt den Schutz Ihrer personenbezogenen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre Daten erheben, verarbeiten und nutzen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen in Anspruch nehmen.</p>
+         <p>WanderReisen Deutschland („wir", „uns", „unser") nimmt den Schutz Ihrer personenbezogenen Daten sehr ernst. Diese domain informiert Sie darüber, wie wir Ihre Daten erheben, verarbeiten und nutzen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen in Anspruch nehmen.</p>
          <p><strong>Verantwortliche Stelle:</strong></p>
-         <address>WanderReisen Deutschland
-          <br>
-          Bergstraße 47
-          <br>
-          80339 München
-          <br>
-          Deutschland
-          <br>
-          E-Mail: <a href="mailto:info@domain.com">info@domain.com</a>
-          <br>
-          Telefon: <a href="tel:+498912345678">+49 89 1234 5678</a></address>
+         <address>Skyline Plaza<br>
+Europa-Allee 6, Floor 12, Office 1204<br>
+60327 Frankfurt am Main</address>
         </section>
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">2. Erhebung und Verarbeitung personenbezogener Daten</h2>
@@ -142,7 +191,7 @@
         </section>
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">5. Cookies und Tracking-Technologien</h2>
-         <p>Unsere Website verwendet Cookies und ähnliche Tracking-Technologien. Detaillierte Informationen finden Sie in unserer <a href="cookie_policy.html">Cookie-Richtlinie</a>.</p>
+         <p>domain Website verwendet Cookies und ähnliche Tracking-Technologien. Detaillierte Informationen finden Sie in unserer <a href="cookie_policy.html">Cookie-domain</a>.</p>
          <h3 class="h5" mb-3="" mt-4\_="">5.1 Arten von Cookies</h3>
          <ul>
           <li><strong>Notwendige Cookies:</strong> Erforderlich für den Betrieb der Website (Session-Management, Sicherheit)</li>
@@ -191,19 +240,11 @@
          <h3 class="h5" mb-3="" mt-4\_="">7.8 Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)</h3>
          <p>Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer Daten zu beschweren.</p>
          <p><strong>Zuständige Aufsichtsbehörde für Bayern:</strong></p>
-         <address>Bayerisches Landesamt für Datenschutzaufsicht
-          <br>
-          Promenade 27
-          <br>
-          91522 Ansbach
-          <br>
-          Deutschland
-          <br>
-          E-Mail: info@domain.com
-          <br>
-          Telefon: +49 981 531300</address>
+         <address>Skyline Plaza<br>
+Europa-Allee 6, Floor 12, Office 1204<br>
+60327 Frankfurt am Main</address>
          <p class="mt-4"><strong>Wie Sie Ihre Rechte ausüben können:</strong></p>
-         <p>Um eines der oben genannten Rechte auszuüben, kontaktieren Sie uns bitte per E-Mail an <a href="mailto:info@domain.com">info@domain.com</a> oder schriftlich an unsere Postanschrift. Wir werden Ihre Anfrage innerhalb von 30 Tagen bearbeiten.</p>
+         <p>Um eines der oben genannten Rechte auszuüben, kontaktieren Sie uns bitte per E-Mail an <a href="mailto:admin@domain.com">help@domain.com</a> oder schriftlich an unsere Postanschrift. Wir werden Ihre Anfrage innerhalb von 30 Tagen bearbeiten.</p>
         </section>
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">8. Datensicherheit</h2>
@@ -212,7 +253,7 @@
           <li><strong>SSL/TLS-Verschlüsselung:</strong> Alle Datenübertragungen auf unserer Website sind verschlüsselt</li>
           <li><strong>Firewalls und Intrusion Detection:</strong> Schutz vor unbefugtem Zugriff</li>
           <li><strong>Zugriffskontrollen:</strong> Nur autorisierte Mitarbeiter haben Zugang zu personenbezogenen Daten</li>
-          <li><strong>Regelmäßige Sicherheitsupdates:</strong> Unsere Systeme werden kontinuierlich aktualisiert</li>
+          <li><strong>Regelmäßige Sicherheitsupdates:</strong> domain Systeme werden kontinuierlich aktualisiert</li>
           <li><strong>Datensicherungen:</strong> Regelmäßige Backups zur Vermeidung von Datenverlust</li>
           <li><strong>Schulung der Mitarbeiter:</strong> Alle Mitarbeiter sind zur Vertraulichkeit verpflichtet und werden regelmäßig geschult</li>
          </ul>
@@ -221,33 +262,23 @@
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">9. Besondere Hinweise</h2>
          <h3 class="h5" mb-3="" mt-4\_="">9.1 Kinder und Jugendliche</h3>
-         <p>Unsere Website richtet sich nicht gezielt an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern ohne Zustimmung der Erziehungsberechtigten. Sollten wir feststellen, dass wir Daten von Kindern ohne entsprechende Zustimmung erhalten haben, werden wir diese unverzüglich löschen.</p>
+         <p>domain Website richtet sich nicht gezielt an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern ohne Zustimmung der Erziehungsberechtigten. Sollten wir feststellen, dass wir Daten von Kindern ohne entsprechende Zustimmung erhalten haben, werden wir diese unverzüglich löschen.</p>
          <h3 class="h5" mb-3="" mt-4\_="">9.2 Social Media</h3>
-         <p>Unsere Website kann Links zu Social-Media-Plattformen enthalten (z.B. Facebook, Instagram, Twitter). Wenn Sie auf diese Links klicken, gelten die Datenschutzbestimmungen der jeweiligen Plattform. Wir haben keinen Einfluss darauf, wie diese Plattformen Ihre Daten verarbeiten.</p>
+         <p>domain Website kann Links zu Social-Media-Plattformen enthalten (z.B. Facebook, Instagram, Twitter). Wenn Sie auf diese Links klicken, gelten die Datenschutzbestimmungen der jeweiligen Plattform. Wir haben keinen Einfluss darauf, wie diese Plattformen Ihre Daten verarbeiten.</p>
          <h3 class="h5" mb-3="" mt-4\_="">9.3 Externe Links</h3>
-         <p>Unsere Website kann Links zu externen Websites Dritter enthalten. Wir haben keinen Einfluss auf den Inhalt und die Datenschutzpraktiken dieser Websites und übernehmen keine Verantwortung dafür.</p>
+         <p>domain Website kann Links zu externen Websites Dritter enthalten. Wir haben keinen Einfluss auf den Inhalt und die Datenschutzpraktiken dieser Websites und übernehmen keine Verantwortung dafür.</p>
         </section>
         <section class="mb-5">
-         <h2 class="h3" mb-3\_="">10. Änderungen dieser Datenschutzerklärung</h2>
-         <p>Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern, um sie an geänderte Rechtslagen oder Änderungen unserer Dienstleistungen anzupassen. Die jeweils aktuelle Version ist auf unserer Website verfügbar. Wesentliche Änderungen werden wir durch einen deutlichen Hinweis auf unserer Website kommunizieren.</p>
-         <p>Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig zu überprüfen, um über den Schutz Ihrer Daten informiert zu bleiben.</p>
+         <h2 class="h3" mb-3\_="">10. Änderungen dieser domain</h2>
+         <p>Wir behalten uns das Recht vor, diese domain jederzeit zu ändern, um sie an geänderte Rechtslagen oder Änderungen unserer Dienstleistungen anzupassen. Die jeweils aktuelle Version ist auf unserer Website verfügbar. Wesentliche Änderungen werden wir durch einen deutlichen Hinweis auf unserer Website kommunizieren.</p>
+         <p>Wir empfehlen Ihnen, diese domain regelmäßig zu überprüfen, um über den Schutz Ihrer Daten informiert zu bleiben.</p>
         </section>
         <section class="mb-5">
          <h2 class="h3" mb-3\_="">11. Kontakt und Datenschutzbeauftragter</h2>
          <p>Bei Fragen, Anregungen oder Beschwerden zum Datenschutz können Sie uns jederzeit kontaktieren:</p>
-         <address><strong>WanderReisen Deutschland</strong>
-          <br>
-          Datenschutzbeauftragter
-          <br>
-          Bergstraße 47
-          <br>
-          80339 München
-          <br>
-          Deutschland
-          <br>
-          E-Mail: <a href="mailto:info@domain.com">info@domain.com</a>
-          <br>
-          Telefon: <a href="tel:+498912345678">+49 89 1234 5678</a></address>
+         <address>Skyline Plaza<br>
+Europa-Allee 6, Floor 12, Office 1204<br>
+60327 Frankfurt am Main</address>
          <p class="mt-3">Wir werden uns bemühen, Ihre Anfrage so schnell wie möglich zu bearbeiten und innerhalb der gesetzlichen Fristen zu beantworten.</p>
         </section>
         <section class="mb-5">
@@ -270,7 +301,7 @@
           <li>Ihre Daten werden sicher gespeichert und nicht ohne Ihre Zustimmung weitergegeben</li>
           <li>Sie haben jederzeit das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten</li>
           <li>Wir verwenden Cookies für Analyse und Marketing – Sie können diese ablehnen</li>
-          <li>Bei Fragen erreichen Sie uns unter <a href="mailto:info@domain.com" class="alert-link">info@domain.com</a></li>
+          <li>Bei Fragen erreichen Sie uns unter <a href="mailto:booking@domain.com" class="alert-link">office@domain.com</a></li>
          </ul>
         </div>
        </div>
@@ -280,47 +311,56 @@
    </section>
   </main>
   "
-  <footer class="l-footer bg-dark text-white py-5">
-   <div class="container">
-    <div class="row g-4">
-     <div class="col-lg-4 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">ReiseWelt</h3>
-      <p class="text-white-50">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus.</p>
-      <div class="mt-4">
-       <p class="mb-2"><strong>Kontakt:</strong></p>
-       <p class="text-white-50 mb-1">Friedrichstraße 123</p>
-       <p class="text-white-50 mb-1">10117 Berlin, Deutschland</p>
-       <p class="text-white-50 mb-1">Tel: +49 30 12345678</p>
-       <p class="text-white-50 mb-1">E-Mail: info@domain.com</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-inner">
+    <div class="dr-footer-top">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-logo" aria-label="domain">
+          <span class="dr-footer-logo-mark" aria-hidden="true"></span>
+          <span class="dr-footer-logo-text">domain</span>
+        </div>
+        <p class="dr-footer-disclaimer">
+          The information provided on domain.com is for general informational purposes only and does not constitute legal, financial, or professional advice. domain makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of any content. Any reliance you place on such information is strictly at your own risk. domain shall not be liable for any loss or damage arising from the use of domain.com or any linked resources. You should always consult qualified professionals for advice tailored to your specific situation.
+        </p>
       </div>
-     </div>
-     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">Schnellzugriff</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-       <li class="c-nav__item mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
-       <li class="c-nav__item mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
-       <li class="c-nav__item mb-2"><a href="#contact-form" class="text-white-50 text-decoration-none">Kontakt</a></li>
-      </ul>
-     </div>
-     <div class="col-lg-4 col-md-6">
-      <h3 class="h5 mb-3">Rechtliches</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutzerklärung</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_and_conditions.html" class="text-white-50 text-decoration-none">Allgemeine Geschäftsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_of_services.html" class="text-white-50 text-decoration-none">Nutzungsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="cookie_policy.html" class="text-white-50 text-decoration-none">Cookie-Richtlinie</a></li>
-      </ul>
-     </div>
+      <div class="dr-footer-nav-blocks">
+        <nav class="dr-footer-nav" aria-label="Main navigation">
+          <h2 class="dr-footer-heading">Navigate</h2>
+          <ul class="dr-footer-nav-list">
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="dr-footer-legal" aria-label="Legal">
+          <h2 class="dr-footer-heading">Legal</h2>
+          <ul class="dr-footer-legal-list">
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <hr class="my-4 bg-white-50">
-    <div class="row">
-     <div class="col-12 text-center">
-      <p class="text-white-50 mb-0">© 2025 ReiseWelt. Alle Rechte vorbehalten.</p>
-     </div>
+    <div class="dr-footer-bottom">
+      <p class="dr-footer-copy">
+        © <span class="dr-footer-copy-brand">domain</span>. All rights reserved.
+      </p>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
+
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

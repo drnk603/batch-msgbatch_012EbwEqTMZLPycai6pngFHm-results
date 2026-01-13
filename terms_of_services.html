@@ -1,56 +1,113 @@
 <!DOCTYPE html><html lang="de"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/terms_of_services.html",
+      "url": "https://domain.com/terms_of_services.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "de"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nutzungsbedingungen - AlpenReisen Deutschland</title>
-  <meta name="description" content="Lesen Sie die Nutzungsbedingungen von AlpenReisen Deutschland. Erfahren Sie mehr über die Bedingungen für die Nutzung unserer Dienstleistungen, Kontoregistrierung, Zahlungen und mehr.">
-  <meta property="og:title" content="Nutzungsbedingungen - AlpenReisen Deutschland">
-  <meta property="og:description" content="Lesen Sie die Nutzungsbedingungen von AlpenReisen Deutschland. Erfahren Sie mehr über die Bedingungen für die Nutzung unserer Dienstleistungen.">
+  <title>domain - AlpenReisen Deutschland</title>
+  <meta name="description" content="Lesen Sie die domain von AlpenReisen Deutschland. Erfahren Sie mehr über die Bedingungen für die Nutzung unserer Dienstleistungen, Kontoregistrierung, Zahlungen und mehr.">
+  <meta property="og:title" content="domain - AlpenReisen Deutschland">
+  <meta property="og:description" content="Lesen Sie die domain von AlpenReisen Deutschland. Erfahren Sie mehr über die Bedingungen für die Nutzung unserer Dienstleistungen.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/terms_of_services.html">
   <link rel="canonical" href="https://domain.com/terms_of_services.html">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
-    <div class="container">
-     <a class="navbar-brand c-logo" href="/"> <span class="c-logo__text">ReiseWelt</span> </a>
-     <button class="navbar-toggler c-nav__toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto c-nav__list">
-       <li class="nav-item c-nav__item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="about.html">Über uns</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="services.html">Leistungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_and_conditions.html">AGB</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_of_services.html">Nutzungsbedingungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="cookie_policy.html">Cookie-Richtlinie</a></li>
-      </ul>
-      <a href="#contact-form" class="btn c-button ms-lg-3">Kontakt</a>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-inner">
+    <div class="dr-header-main">
+      <div class="dr-header-brand">
+        <div class="dr-logo" aria-label="domain">
+          <span class="dr-logo-mark" aria-hidden="true"></span>
+          <span class="dr-logo-text">domain</span>
+        </div>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-panel" aria-hidden="true">
+      <nav class="dr-nav-panel-inner" aria-label="Main navigation mobile">
+        <ul class="dr-nav-panel-list">
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
   <main>
    <section class="l-section py-4 py-md-5" style="scroll-margin-top: var(--header-h);">
-    <div class="l-container container">
+    <div class="container container">
      <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
        <li class="breadcrumb-item"><a href="index.html">Startseite</a></li>
-       <li class="breadcrumb-item active" aria-current="page">Nutzungsbedingungen</li>
+       <li class="breadcrumb-item active" aria-current="page">domain</li>
       </ol>
      </nav>
      <div class="row">
       <div class="col-12">
-       <h1 class="mb-4">Nutzungsbedingungen</h1>
+       <h1 class="mb-4">domain</h1>
        <p class="text-muted mb-5"><strong>Zuletzt aktualisiert:</strong> 15. Januar 2025</p>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">1. Einleitung und Geltungsbereich</h2>
-        <p>Willkommen bei AlpenReisen Deutschland. Diese Nutzungsbedingungen regeln die Nutzung unserer Website und aller damit verbundenen Dienstleistungen. Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienste erklären Sie sich mit diesen Bedingungen einverstanden.</p>
+        <p>Willkommen bei AlpenReisen Deutschland. Diese domain regeln die Nutzung unserer Website und aller damit verbundenen Dienstleistungen. Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienste erklären Sie sich mit diesen Bedingungen einverstanden.</p>
         <p>AlpenReisen Deutschland ist ein Reisedienstleister mit Sitz in München, Deutschland. Wir bieten maßgeschneiderte Reisepakete, Buchungsdienstleistungen und Reiseberatung für Destinationen im Alpenraum und darüber hinaus.</p>
-        <p>Wenn Sie mit diesen Nutzungsbedingungen nicht einverstanden sind, bitten wir Sie, unsere Website nicht zu nutzen.</p>
+        <p>Wenn Sie mit diesen domain nicht einverstanden sind, bitten wir Sie, unsere Website nicht zu nutzen.</p>
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">2. Bereitgestellte Dienstleistungen</h2>
@@ -75,7 +132,7 @@
          <li>Rechnungsadresse</li>
         </ul>
         <h4 class="h5 mb-3 mt-4">3.2 Kontosicherheit</h4>
-        <p>Sie sind für die Geheimhaltung Ihrer Zugangsdaten verantwortlich. Wählen Sie ein sicheres Passwort und teilen Sie es niemandem mit. Bei Verdacht auf unbefugten Zugriff informieren Sie uns umgehend unter <a href="mailto:info@domain.com">info@domain.com</a>.</p>
+        <p>Sie sind für die Geheimhaltung Ihrer Zugangsdaten verantwortlich. Wählen Sie ein sicheres Passwort und teilen Sie es niemandem mit. Bei Verdacht auf unbefugten Zugriff informieren Sie uns umgehend unter <a href="mailto:info@domain.com">hello@domain.com</a>.</p>
         <h4 class="h5 mb-3 mt-4">3.3 Altersbeschränkung</h4>
         <p>Die Nutzung unserer Dienste ist Personen ab 18 Jahren vorbehalten. Minderjährige dürfen unsere Dienste nur unter Aufsicht eines Erziehungsberechtigten nutzen.</p>
        </div>
@@ -125,7 +182,7 @@
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">6. Haftungsbeschränkung</h2>
-        <h4 class="h5 mb-3">6.1 Allgemeine Haftung</h4>
+        <h4 class="h5 mb-3">6.1 domain Haftung</h4>
         <p>AlpenReisen Deutschland haftet für Schäden nur bei Vorsatz oder grober Fahrlässigkeit. Die Haftung für leichte Fahrlässigkeit ist ausgeschlossen, außer bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) oder bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit.</p>
         <h4 class="h5 mb-3 mt-4">6.2 Dienstleistungen Dritter</h4>
         <p>Wir vermitteln und koordinieren Dienstleistungen von Drittanbietern (Hotels, Fluggesellschaften, Transportunternehmen, Aktivitätsanbietern). Für Leistungen dieser Anbieter haften wir nur im Rahmen unserer Sorgfaltspflicht bei der Auswahl. Direkte Ansprüche aus Mängeln der Drittleistungen richten sich primär gegen den jeweiligen Leistungsträger.</p>
@@ -139,7 +196,7 @@
         <h4 class="h5 mb-3">7.1 Sperrung durch AlpenReisen Deutschland</h4>
         <p>Wir behalten uns das Recht vor, Ihr Benutzerkonto zu sperren oder zu löschen, wenn:</p>
         <ul>
-         <li>Sie gegen diese Nutzungsbedingungen verstoßen</li>
+         <li>Sie gegen diese domain verstoßen</li>
          <li>Sie falsche Angaben bei der Registrierung gemacht haben</li>
          <li>Sie betrügerische Aktivitäten durchführen oder versuchen</li>
          <li>Sie unsere Dienste missbräuchlich nutzen</li>
@@ -148,7 +205,7 @@
         </ul>
         <p>Im Falle einer Sperrung werden laufende Buchungen entsprechend der Stornierungsbedingungen behandelt. Bei schwerwiegenden Verstößen behalten wir uns rechtliche Schritte vor.</p>
         <h4 class="h5 mb-3 mt-4">7.2 Kündigung durch den Nutzer</h4>
-        <p>Sie können Ihr Benutzerkonto jederzeit kündigen, indem Sie uns per E-Mail an <a href="mailto:info@domain.com">info@domain.com</a> kontaktieren. Laufende Buchungen bleiben von der Kontokündigung unberührt und werden gemäß den vereinbarten Bedingungen abgewickelt.</p>
+        <p>Sie können Ihr Benutzerkonto jederzeit kündigen, indem Sie uns per E-Mail an <a href="mailto:admin@domain.com">help@domain.com</a> kontaktieren. Laufende Buchungen bleiben von der Kontokündigung unberührt und werden gemäß den vereinbarten Bedingungen abgewickelt.</p>
         <h4 class="h5 mb-3 mt-4">7.3 Folgen der Beendigung</h4>
         <p>Nach Beendigung des Nutzerkontos verlieren Sie den Zugriff auf gespeicherte Daten, Buchungshistorie und personalisierte Inhalte. Wir speichern Ihre Daten gemäß unserer <a href="privacy.html">Datenschutzrichtlinie</a> für gesetzlich vorgeschriebene Zeiträume.</p>
        </div>
@@ -159,22 +216,22 @@
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">9. Datenschutz</h2>
-        <p>Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Unsere Datenschutzpraktiken sind in unserer <a href="privacy.html">Datenschutzrichtlinie</a> ausführlich beschrieben. Diese bildet einen integralen Bestandteil dieser Nutzungsbedingungen.</p>
+        <p>Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. domain Datenschutzpraktiken sind in unserer <a href="privacy.html">Datenschutzrichtlinie</a> ausführlich beschrieben. Diese bildet einen integralen Bestandteil dieser domain.</p>
         <p>Durch die Nutzung unserer Dienste stimmen Sie der Verarbeitung Ihrer Daten gemäß unserer Datenschutzrichtlinie zu. Wir verarbeiten Ihre Daten im Einklang mit der Datenschutz-Grundverordnung (DSGVO) und anderen anwendbaren Datenschutzgesetzen.</p>
-        <p>Für Fragen zum Datenschutz kontaktieren Sie uns unter: <a href="mailto:info@domain.com">info@domain.com</a></p>
+        <p>Für Fragen zum Datenschutz kontaktieren Sie uns unter: <a href="mailto:partners@domain.com">team@domain.com</a></p>
        </div>
        <div class="content-block mb-5">
-        <h2 class="h3 mb-3">10. Änderungen der Nutzungsbedingungen</h2>
-        <p>Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Wesentliche Änderungen werden Ihnen per E-Mail oder durch einen deutlichen Hinweis auf unserer Website mitgeteilt, mindestens 30 Tage vor Inkrafttreten.</p>
+        <h2 class="h3 mb-3">10. Änderungen der domain</h2>
+        <p>Wir behalten uns das Recht vor, diese domain jederzeit zu ändern. Wesentliche Änderungen werden Ihnen per E-Mail oder durch einen deutlichen Hinweis auf unserer Website mitgeteilt, mindestens 30 Tage vor Inkrafttreten.</p>
         <p>Durch die weitere Nutzung unserer Dienste nach Inkrafttreten der Änderungen akzeptieren Sie die neuen Bedingungen. Wenn Sie mit den Änderungen nicht einverstanden sind, können Sie Ihr Konto kündigen.</p>
-        <p>Die jeweils aktuelle Version dieser Nutzungsbedingungen ist stets auf unserer Website verfügbar.</p>
+        <p>Die jeweils aktuelle Version dieser domain ist stets auf unserer Website verfügbar.</p>
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">11. Anwendbares Recht und Gerichtsstand</h2>
         <h4 class="h5 mb-3">11.1 Anwendbares Recht</h4>
-        <p>Für diese Nutzungsbedingungen und alle damit zusammenhängenden Rechtsbeziehungen gilt ausschließlich das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG) und der Verweisungsnormen des internationalen Privatrechts.</p>
+        <p>Für diese domain und alle damit zusammenhängenden Rechtsbeziehungen gilt ausschließlich das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG) und der Verweisungsnormen des internationalen Privatrechts.</p>
         <h4 class="h5 mb-3 mt-4">11.2 Gerichtsstand</h4>
-        <p>Ausschließlicher Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesen Nutzungsbedingungen ist München, Deutschland, soweit Sie Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen sind.</p>
+        <p>Ausschließlicher Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesen domain ist München, Deutschland, soweit Sie Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen sind.</p>
         <h4 class="h5 mb-3 mt-4">11.3 Verbraucherschutz</h4>
         <p>Sind Sie Verbraucher, bleiben die Bestimmungen Ihres Wohnsitzlandes zum Verbraucherschutz unberührt, soweit diese einen weitergehenden Schutz gewähren als das deutsche Recht.</p>
         <h4 class="h5 mb-3 mt-4">11.4 EU-Streitbeilegung</h4>
@@ -182,11 +239,11 @@
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">12. Salvatorische Klausel</h2>
-        <p>Sollten einzelne Bestimmungen dieser Nutzungsbedingungen unwirksam oder undurchführbar sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. An die Stelle der unwirksamen oder undurchführbaren Bestimmung tritt eine wirksame Regelung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</p>
+        <p>Sollten einzelne Bestimmungen dieser domain unwirksam oder undurchführbar sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. An die Stelle der unwirksamen oder undurchführbaren Bestimmung tritt eine wirksame Regelung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</p>
        </div>
        <div class="content-block mb-5">
         <h2 class="h3 mb-3">13. Kontakt und Support</h2>
-        <p>Bei Fragen zu diesen Nutzungsbedingungen, Problemen mit Ihrer Buchung oder allgemeinen Anliegen erreichen Sie uns wie folgt:</p>
+        <p>Bei Fragen zu diesen domain, Problemen mit Ihrer Buchung oder allgemeinen Anliegen erreichen Sie uns wie folgt:</p>
         <div class="mt-4">
          <p><strong>AlpenReisen Deutschland</strong></p>
          <p>Maximilianstraße 42
@@ -194,9 +251,9 @@
           80539 München
           <br>
           Deutschland</p>
-         <p><strong>Telefon:</strong> <a href="tel:+4989765432">+49-89-7654-3210</a>
+         <p><strong>Telefon:</strong> <a href="tel:030-487-6283">+49 30 2207400</a>
           <br>
-          <strong>E-Mail:</strong> <a href="mailto:info@domain.com">info@domain.com</a></p>
+          <strong>E-Mail:</strong> <a href="mailto:booking@domain.com">office@domain.com</a></p>
          <p><strong>Geschäftszeiten:</strong>
           <br>
           Montag bis Freitag: 09:00 - 18:00 Uhr
@@ -207,54 +264,63 @@
         </div>
        </div>
        <div class="alert alert-info mt-5" role="alert">
-        <strong>Hinweis:</strong> Diese Nutzungsbedingungen wurden zuletzt am 15. Januar 2025 aktualisiert. Wir empfehlen Ihnen, diese Seite regelmäßig zu besuchen, um über Änderungen informiert zu bleiben.
+        <strong>Hinweis:</strong> Diese domain wurden zuletzt am 15. Januar 2025 aktualisiert. Wir empfehlen Ihnen, diese Seite regelmäßig zu besuchen, um über Änderungen informiert zu bleiben.
        </div>
       </div>
      </div>
     </div>
    </section>
   </main>
-  <footer class="l-footer bg-dark text-white py-5">
-   <div class="container">
-    <div class="row g-4">
-     <div class="col-lg-4 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">ReiseWelt</h3>
-      <p class="text-white-50">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus.</p>
-      <div class="mt-4">
-       <p class="mb-2"><strong>Kontakt:</strong></p>
-       <p class="text-white-50 mb-1">Friedrichstraße 123</p>
-       <p class="text-white-50 mb-1">10117 Berlin, Deutschland</p>
-       <p class="text-white-50 mb-1">Tel: +49 30 12345678</p>
-       <p class="text-white-50 mb-1">E-Mail: info@domain.com</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-inner">
+    <div class="dr-footer-top">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-logo" aria-label="domain">
+          <span class="dr-footer-logo-mark" aria-hidden="true"></span>
+          <span class="dr-footer-logo-text">domain</span>
+        </div>
+        <p class="dr-footer-disclaimer">
+          The information provided on domain.com is for general informational purposes only and does not constitute legal, financial, or professional advice. domain makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of any content. Any reliance you place on such information is strictly at your own risk. domain shall not be liable for any loss or damage arising from the use of domain.com or any linked resources. You should always consult qualified professionals for advice tailored to your specific situation.
+        </p>
       </div>
-     </div>
-     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">Schnellzugriff</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-       <li class="c-nav__item mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
-       <li class="c-nav__item mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
-       <li class="c-nav__item mb-2"><a href="#contact-form" class="text-white-50 text-decoration-none">Kontakt</a></li>
-      </ul>
-     </div>
-     <div class="col-lg-4 col-md-6">
-      <h3 class="h5 mb-3">Rechtliches</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutzerklärung</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_and_conditions.html" class="text-white-50 text-decoration-none">Allgemeine Geschäftsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_of_services.html" class="text-white-50 text-decoration-none">Nutzungsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="cookie_policy.html" class="text-white-50 text-decoration-none">Cookie-Richtlinie</a></li>
-      </ul>
-     </div>
+      <div class="dr-footer-nav-blocks">
+        <nav class="dr-footer-nav" aria-label="Main navigation">
+          <h2 class="dr-footer-heading">Navigate</h2>
+          <ul class="dr-footer-nav-list">
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="dr-footer-legal" aria-label="Legal">
+          <h2 class="dr-footer-heading">Legal</h2>
+          <ul class="dr-footer-legal-list">
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <hr class="my-4 bg-white-50">
-    <div class="row">
-     <div class="col-12 text-center">
-      <p class="text-white-50 mb-0">© 2025 ReiseWelt. Alle Rechte vorbehalten.</p>
-     </div>
+    <div class="dr-footer-bottom">
+      <p class="dr-footer-copy">
+        © <span class="dr-footer-copy-brand">domain</span>. All rights reserved.
+      </p>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
+
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

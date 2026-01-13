@@ -1,44 +1,101 @@
 <!DOCTYPE html><html lang="de"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/cookie_policy.html",
+      "url": "https://domain.com/cookie_policy.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "de"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Cookie-Richtlinie für TourenReisen - Erfahren Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern und unsere Dienstleistungen zu optimieren.">
-  <meta property="og:title" content="Cookie-Richtlinie - TourenReisen">
-  <meta property="og:description" content="Cookie-Richtlinie für TourenReisen - Erfahren Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern und unsere Dienstleistungen zu optimieren.">
+  <meta name="description" content="Cookie-domain für TourenReisen - Erfahren Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern und unsere Dienstleistungen zu optimieren.">
+  <meta property="og:title" content="Cookie-domain - TourenReisen">
+  <meta property="og:description" content="Cookie-domain für TourenReisen - Erfahren Sie, wie wir Cookies verwenden, um Ihre Erfahrung zu verbessern und unsere Dienstleistungen zu optimieren.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/cookie_policy.html">
   <link rel="canonical" href="https://domain.com/cookie_policy.html">
-  <title>Cookie-Richtlinie - TourenReisen</title>
+  <title>Cookie-domain - TourenReisen</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
-    <div class="container">
-     <a class="navbar-brand c-logo" href="/"> <span class="c-logo__text">ReiseWelt</span> </a>
-     <button class="navbar-toggler c-nav__toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto c-nav__list">
-       <li class="nav-item c-nav__item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="about.html">Über uns</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="services.html">Leistungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_and_conditions.html">AGB</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="terms_of_services.html">Nutzungsbedingungen</a></li>
-       <li class="nav-item c-nav__item"><a class="nav-link" href="cookie_policy.html">Cookie-Richtlinie</a></li>
-      </ul>
-      <a href="#contact-form" class="btn c-button ms-lg-3">Kontakt</a>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-inner">
+    <div class="dr-header-main">
+      <div class="dr-header-brand">
+        <div class="dr-logo" aria-label="domain">
+          <span class="dr-logo-mark" aria-hidden="true"></span>
+          <span class="dr-logo-text">domain</span>
+        </div>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-item">
+            <a class="dr-nav-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-panel" aria-hidden="true">
+      <nav class="dr-nav-panel-inner" aria-label="Main navigation mobile">
+        <ul class="dr-nav-panel-list">
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./index.html">Home</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./about.html">About</a>
+          </li>
+          <li class="dr-nav-panel-item">
+            <a class="dr-nav-panel-link" href="./services.html">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
   <main>
    <nav aria-label="breadcrumb" class="py-3">
     <div class="container">
      <ol class="breadcrumb mb-0">
       <li class="breadcrumb-item"><a href="index.html">Startseite</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Cookie-Richtlinie</li>
+      <li class="breadcrumb-item active" aria-current="page">Cookie-domain</li>
      </ol>
     </div>
    </nav>
@@ -46,7 +103,7 @@
     <div class="container">
      <div class="row justify-content-center">
       <div class="col-12 col-lg-10 col-xl-9">
-       <h1 class="mb-4">Cookie-Richtlinie</h1>
+       <h1 class="mb-4">Cookie-domain</h1>
        <p class="text-muted mb-5"><strong>Zuletzt aktualisiert:</strong> 20. Januar 2025</p>
        <div class="c-card mb-4 p-4">
         <h2 class="h4 mb-3">Was sind Cookies?</h2>
@@ -160,80 +217,89 @@
        </div>
        <div class="c-card mb-4 p-4">
         <h2 class="h4 mb-3">Ihre Einwilligung</h2>
-        <p>Durch die Nutzung unserer Website und das Akzeptieren unseres Cookie-Banners stimmen Sie der Verwendung von Cookies gemäß dieser Cookie-Richtlinie zu. Sie haben jederzeit das Recht, Ihre Einwilligung zu widerrufen und Ihre Cookie-Einstellungen zu ändern.</p>
+        <p>Durch die Nutzung unserer Website und das Akzeptieren unseres Cookie-Banners stimmen Sie der Verwendung von Cookies gemäß dieser Cookie-domain zu. Sie haben jederzeit das Recht, Ihre Einwilligung zu widerrufen und Ihre Cookie-Einstellungen zu ändern.</p>
         <p>Notwendige Cookies werden automatisch gesetzt, da sie für den Betrieb der Website erforderlich sind. Für alle anderen Cookie-Typen benötigen wir Ihre ausdrückliche Einwilligung.</p>
        </div>
        <div class="c-card mb-4 p-4">
         <h2 class="h4 mb-3">Einhaltung rechtlicher Vorschriften</h2>
-        <p>Diese Cookie-Richtlinie entspricht den Anforderungen der:</p>
+        <p>Diese Cookie-domain entspricht den Anforderungen der:</p>
         <ul>
          <li><strong>Datenschutz-Grundverordnung (DSGVO):</strong> EU-Verordnung 2016/679 zum Schutz personenbezogener Daten</li>
-         <li><strong>ePrivacy-Richtlinie:</strong> Richtlinie 2002/58/EG über die Verarbeitung personenbezogener Daten und den Schutz der Privatsphäre in der elektronischen Kommunikation</li>
+         <li><strong>ePrivacy-domain:</strong> domain 2002/58/EG über die Verarbeitung personenbezogener Daten und den Schutz der Privatsphäre in der elektronischen Kommunikation</li>
          <li><strong>Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG):</strong> Deutsches Gesetz zur Regelung des Datenschutzes und des Schutzes der Privatsphäre in der Telekommunikation und bei Telemedien</li>
         </ul>
         <p>Wir verpflichten uns, Ihre Privatsphäre zu schützen und alle geltenden Datenschutzgesetze einzuhalten.</p>
        </div>
        <div class="c-card mb-4 p-4">
         <h2 class="h4 mb-3">Weitere Informationen</h2>
-        <p>Für weitere Informationen darüber, wie wir Ihre personenbezogenen Daten verarbeiten, lesen Sie bitte unsere <a href="privacy.html">Datenschutzerklärung</a>.</p>
-        <p>Wenn Sie Fragen zu unserer Cookie-Richtlinie haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte unter:</p>
-        <p class="mb-0"><strong>E-Mail:</strong> <a href="mailto:info@domain.com">info@domain.com</a>
+        <p>Für weitere Informationen darüber, wie wir Ihre personenbezogenen Daten verarbeiten, lesen Sie bitte unsere <a href="privacy.html">domain</a>.</p>
+        <p>Wenn Sie Fragen zu unserer Cookie-domain haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte unter:</p>
+        <p class="mb-0"><strong>E-Mail:</strong> <a href="mailto:manager@domain.com">billing@domain.com</a>
          <br>
-         <strong>Telefon:</strong> <a href="tel:+4930123456789">+49 30 123 456 789</a>
+         <strong>Telefon:</strong> <a href="tel:030-487-6283">+49 30 2207400</a>
          <br>
          <strong>Adresse:</strong> Friedrichstraße 123, 10117 Berlin, Deutschland</p>
        </div>
        <div class="c-card p-4">
-        <h2 class="h4 mb-3">Änderungen dieser Cookie-Richtlinie</h2>
-        <p>Wir behalten uns das Recht vor, diese Cookie-Richtlinie jederzeit zu aktualisieren oder zu ändern. Änderungen werden auf dieser Seite veröffentlicht und das Datum "Zuletzt aktualisiert" wird entsprechend aktualisiert.</p>
-        <p class="mb-0">Wir empfehlen Ihnen, diese Cookie-Richtlinie regelmäßig zu überprüfen, um über die Verwendung von Cookies auf unserer Website informiert zu bleiben.</p>
+        <h2 class="h4 mb-3">Änderungen dieser Cookie-domain</h2>
+        <p>Wir behalten uns das Recht vor, diese Cookie-domain jederzeit zu aktualisieren oder zu ändern. Änderungen werden auf dieser Seite veröffentlicht und das Datum "Zuletzt aktualisiert" wird entsprechend aktualisiert.</p>
+        <p class="mb-0">Wir empfehlen Ihnen, diese Cookie-domain regelmäßig zu überprüfen, um über die Verwendung von Cookies auf unserer Website informiert zu bleiben.</p>
        </div>
       </div>
      </div>
     </div>
    </section>
   </main>
-  <footer class="l-footer bg-dark text-white py-5">
-   <div class="container">
-    <div class="row g-4">
-     <div class="col-lg-4 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">ReiseWelt</h3>
-      <p class="text-white-50">Ihr vertrauenswürdiger Partner für unvergessliche Reiseerlebnisse in Deutschland und darüber hinaus.</p>
-      <div class="mt-4">
-       <p class="mb-2"><strong>Kontakt:</strong></p>
-       <p class="text-white-50 mb-1">Friedrichstraße 123</p>
-       <p class="text-white-50 mb-1">10117 Berlin, Deutschland</p>
-       <p class="text-white-50 mb-1">Tel: +49 30 12345678</p>
-       <p class="text-white-50 mb-1">E-Mail: info@domain.com</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-inner">
+    <div class="dr-footer-top">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-logo" aria-label="domain">
+          <span class="dr-footer-logo-mark" aria-hidden="true"></span>
+          <span class="dr-footer-logo-text">domain</span>
+        </div>
+        <p class="dr-footer-disclaimer">
+          The information provided on domain.com is for general informational purposes only and does not constitute legal, financial, or professional advice. domain makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of any content. Any reliance you place on such information is strictly at your own risk. domain shall not be liable for any loss or damage arising from the use of domain.com or any linked resources. You should always consult qualified professionals for advice tailored to your specific situation.
+        </p>
       </div>
-     </div>
-     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-      <h3 class="h5 mb-3">Schnellzugriff</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-       <li class="c-nav__item mb-2"><a href="about.html" class="text-white-50 text-decoration-none">Über uns</a></li>
-       <li class="c-nav__item mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Leistungen</a></li>
-       <li class="c-nav__item mb-2"><a href="#contact-form" class="text-white-50 text-decoration-none">Kontakt</a></li>
-      </ul>
-     </div>
-     <div class="col-lg-4 col-md-6">
-      <h3 class="h5 mb-3">Rechtliches</h3>
-      <ul class="list-unstyled c-nav__list">
-       <li class="c-nav__item mb-2"><a href="privacy.html" class="text-white-50 text-decoration-none">Datenschutzerklärung</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_and_conditions.html" class="text-white-50 text-decoration-none">Allgemeine Geschäftsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="terms_of_services.html" class="text-white-50 text-decoration-none">Nutzungsbedingungen</a></li>
-       <li class="c-nav__item mb-2"><a href="cookie_policy.html" class="text-white-50 text-decoration-none">Cookie-Richtlinie</a></li>
-      </ul>
-     </div>
+      <div class="dr-footer-nav-blocks">
+        <nav class="dr-footer-nav" aria-label="Main navigation">
+          <h2 class="dr-footer-heading">Navigate</h2>
+          <ul class="dr-footer-nav-list">
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+            <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="dr-footer-legal" aria-label="Legal">
+          <h2 class="dr-footer-heading">Legal</h2>
+          <ul class="dr-footer-legal-list">
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+            <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <hr class="my-4 bg-white-50">
-    <div class="row">
-     <div class="col-12 text-center">
-      <p class="text-white-50 mb-0">© 2025 ReiseWelt. Alle Rechte vorbehalten.</p>
-     </div>
+    <div class="dr-footer-bottom">
+      <p class="dr-footer-copy">
+        © <span class="dr-footer-copy-brand">domain</span>. All rights reserved.
+      </p>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
+
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>
